@@ -4,13 +4,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Введите первое число: ");
+        System.out.println("Введите первое число ");
         float a = scanner.nextFloat();
 
         System.out.println("Введите операцию (+,-,*,/) ");
         char operation = scanner.next().charAt(0);
 
-        System.out.println("Введите второе число: ");
+        System.out.println("Введите второе число ");
         float b = scanner.nextFloat();
 
         if (operation == '+') {
